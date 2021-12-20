@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-dark bg-dark">
       <div className="container-fluid">
-        <Link to="/">
+        <Link style={{ textDecoration: "none" }} to="/">
           <span className="navbar-brand mb-0 h1">Team Members</span>
         </Link>
         <Link to="/add">
